@@ -1,7 +1,12 @@
+import CardContainer from "@/components/CardContainer";
 import React from "react";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <CardContainer />
+    </>
+  );
 };
 
 export default Home;
